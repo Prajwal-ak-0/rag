@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils';
 
 export default function SignInPage() {
   return (
-    <div className="grid w-full grow items-center px-4 sm:justify-center">
+    <div className="grid h-screen w-full grow items-center px-4 sm:justify-center ">
       <SignIn.Root>
         <Clerk.Loading>
           {(isGlobalLoading) => (
@@ -19,7 +19,7 @@ export default function SignInPage() {
               <SignIn.Step name="start">
                 <Card className="w-full sm:w-96">
                   <CardHeader>
-                    <CardTitle>Sign in to Acme Co</CardTitle>
+                    <CardTitle>Sign in to RAG-GPT</CardTitle>
                     <CardDescription>Welcome back! Please sign in to continue</CardDescription>
                   </CardHeader>
                   <CardContent className="grid gap-y-4">

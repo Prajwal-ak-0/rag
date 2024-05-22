@@ -38,7 +38,6 @@ export default function PlaygroundPage() {
         <div className="container flex flex-col items-start justify-between space-y-1 pb-2 sm:flex-row sm:items-center sm:space-y-0">
           <h2 className="text-lg font-semibold">Playground</h2>
           <div className="ml-auto flex w-full space-x-2 sm:justify-end">
-            <PresetSelector presets={presets} />
             <PresetSave />
             <div className="hidden space-x-2 md:flex">
               <CodeViewer />
